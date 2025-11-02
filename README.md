@@ -37,15 +37,17 @@
 
 1. Установите [Visual Studio](https://visualstudio.microsoft.com/) с компонентом **.NET Desktop Development**  
 2. Клонируйте репозиторий:
+
    ```bash
    git clone https://github.com/liqwave/SigmaAudioHelper.git
    ```
-3. Откройте проект SigmaAudioHelper.sln
-4. Установите зависимость:
+4. Откройте проект SigmaAudioHelper.sln
+5. Установите зависимость:
+
    ```bash
    Install-Package NAudio
    ```
-5. Соберите и запустите проект.
+6. Соберите и запустите проект.
 
 ---
 
@@ -58,5 +60,4 @@
 
 ## 💡 Автор
 
-liqwave
 💬 GitHub: @liqwave
