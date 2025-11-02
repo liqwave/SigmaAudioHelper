@@ -41,13 +41,14 @@
    ```bash
    git clone https://github.com/liqwave/SigmaAudioHelper.git
    ```
-4. Откройте проект SigmaAudioHelper.sln
-5. Установите зависимость:
+3. Откройте проект SigmaAudioHelper.sln
+4. Убедитесь, что установлены зависимости:
 
    ```bash
    Install-Package NAudio
+   Install-Package Costura.Fody
    ```
-6. Соберите и запустите проект.
+5. Соберите проект в режиме Release.
 
 ---
 
